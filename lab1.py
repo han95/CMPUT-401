@@ -1,4 +1,4 @@
 import requests
 
-response = requests.post('http://ccid-eddieantonio.rhcloud.com/han8')
-print(response.status_code)
+response = requests.get('https://github.com/han95/CMPUT-404/raw/master/lab1.py')
+print(response.text)
